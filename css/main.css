@@ -1,0 +1,61 @@
+header {
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  border: solid black;
+}
+
+.logo {
+  align-self: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articles {
+  height: 40vh;
+  width: 40vw;
+  background-color: aqua;
+  border: solid red;
+  text-align: center;
+}
+
+.buying {
+  height: 40vh;
+  width: 6vw;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  background-color: darkolivegreen;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav li {
+  background-color: coral;
+  padding: 10px;
+}
+
+.credits, .nav, .socials {
+  list-style: none;
+}
+
+.credits li, .socials li {
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+
